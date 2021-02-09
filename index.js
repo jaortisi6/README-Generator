@@ -72,9 +72,7 @@ inquirer.prompt(
     //template to be used
     const template = `# ${title}
 
-* [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 # Description
 ${description}
@@ -82,8 +80,6 @@ ${description}
 ${usage}
 ### Instructions
 ${instructions}
-## Credits
-${credit}
 ## License
 ${license}
 
