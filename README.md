@@ -16,7 +16,7 @@ Open the app in VS Code. Open a terminal and navigate to the appropriate directo
 ## Credits
 undefined
 ## License
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)MIT License
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 #Contact
 * GitHub : jaortisi6
