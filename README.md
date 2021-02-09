@@ -1,4 +1,6 @@
 # README-Generator
+[Screenshot1](Screenshots\Screenshot_1.PNG)
+[Screenshot2](Screenshots\Screenshot_2.PNG)
 
 * [Usage](#usage)
 * [License](#license)
