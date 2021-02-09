@@ -28,12 +28,6 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: 'Who worked on the app?',
-            name: 'credits',
-            validate: (value) => { if (value) { return true } else { return 'I need a value to continue.' } },
-        },
-        {
-            type: 'input',
             message: 'How do you use the app?',
             name: 'usage',
             validate: (value) => { if (value) { return true } else { return 'I need a value to continue.' } },
@@ -63,7 +57,6 @@ inquirer.prompt(
     title,
     description,
     instructions,
-    credit,
     license,
     git,
     email,
@@ -85,7 +78,7 @@ ${instructions}
 ## License
 ${license}
 
-# Contact
+## Contact
 * GitHub : ${git}
 * E-mail : ${email}`;
 //function to create the README using fs
