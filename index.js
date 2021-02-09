@@ -90,12 +90,11 @@ ${instructions}
 ## Credits
 ${credit}
 ## License
-${license}
+[!${license}
 
 #Contact
-* GitHub :${git}
-* Linkedin :${linkedin}
-* E-mail :${email}`;
+* GitHub : ${git}
+* E-mail : ${email}`;
 //function to create the README using fs
 createNewFile(title, template);
 }
