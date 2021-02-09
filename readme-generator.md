@@ -13,6 +13,6 @@ Open the app in VS Code. Open a terminal and navigate to the appropriate directo
 ## License
 MIT License
 
-# Contact
+## Contact
 * GitHub : jaortisi6
 * E-mail : jaortisi@gmail.com
