@@ -16,13 +16,13 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: 'Describe your app.',
+            message: 'Describe your app:',
             name: 'description',
             validate: (value) => { if (value) { return true } else { return 'I need a value to continue.' } },
         },
         {
             type: 'input',
-            message: 'Instructions to be followed.',
+            message: 'Instructions to be followed:',
             name: 'instructions',
             validate: (value) => { if (value) { return true } else { return 'I need a value to continue.' } },
         },
@@ -48,7 +48,7 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: 'Git username?',
+            message: 'What is your GitHub Username?',
             name: 'git',
             validate: (value) => { if (value) { return true } else { return 'I need a value to continue.' } },
         },
@@ -66,31 +66,26 @@ inquirer.prompt(
     credit,
     license,
     git,
-    linkedin,
     email,
-    usage,
-    contribution
+    usage
 }) => {
     //template to be used
     const template = `# ${title}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
 * [Credits](#credits)
 * [License](#license)
 # Description
 ${description}
 ## Usage
 ${usage}
-## Contribution
-${contribution}
 ### Instructions
 ${instructions}
 ## Credits
 ${credit}
 ## License
-[!${license}
+${license}
 
 #Contact
 * GitHub : ${git}
