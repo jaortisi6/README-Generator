@@ -16,8 +16,8 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: 'How do you install your app?',
-            name: 'installation',
+            message: 'Describe your app.',
+            name: 'description',
             validate: (value) => { if (value) { return true } else { return 'I need a value to continue.' } },
         },
         {
@@ -61,7 +61,7 @@ inquirer.prompt(
     ]
 ).then(({
     title,
-    installation,
+    description,
     instructions,
     credit,
     license,
@@ -79,8 +79,8 @@ inquirer.prompt(
 * [Contribution](#contribution)
 * [Credits](#credits)
 * [License](#license)
-# Installation
-${installation}
+# Description
+${description}
 ## Usage
 ${usage}
 ## Contribution
