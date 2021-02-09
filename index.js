@@ -74,6 +74,8 @@ inquirer.prompt(
 
 * [Usage](#usage)
 * [License](#license)
+* [Contact](#contact)
+
 # Description
 ${description}
 ## Usage
@@ -83,7 +85,7 @@ ${instructions}
 ## License
 ${license}
 
-#Contact
+# Contact
 * GitHub : ${git}
 * E-mail : ${email}`;
 //function to create the README using fs
