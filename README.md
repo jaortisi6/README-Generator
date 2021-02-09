@@ -1,9 +1,11 @@
 # README-Generator
-[Screenshot1](Screenshots\Screenshot_1.PNG)
-[Screenshot2](Screenshots\Screenshot_2.PNG)
-
 * [Usage](#usage)
 * [License](#license)
+
+# Screenshots
+![Screenshot1](Screenshots\Screenshot_1.PNG)
+![Screenshot2](Screenshots\Screenshot_2.PNG)
+
 # Description
 This application takes user input entered based on prompts, and compiles it into a professional looking  README file. All data gathering, value assignment, and formatting is done within the application. Once all this is complete, a file is generated to house all the information.
 ## Usage
