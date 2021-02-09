@@ -17,6 +17,6 @@ Enter the information requested by each prompt to obtain the professional lookin
 ## License
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-#Contact
+## Contact
 * GitHub : jaortisi6
 * E-mail : jaortisi@gmail.com
