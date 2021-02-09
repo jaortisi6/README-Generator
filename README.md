@@ -1,6 +1,8 @@
 # README-Generator
+
 * [Usage](#usage)
 * [License](#license)
+* [Contact](#contact)
 
 # Screenshots
 ![Screenshot1](Screenshots/Screenshot_1.PNG)
